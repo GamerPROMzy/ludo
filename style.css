@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+#board {
+  border: 2px solid #333;
+  margin-top: 20px;
+}
+
+#diceSection {
+  margin-top: 20px;
+}
