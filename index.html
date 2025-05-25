@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Ludo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Online Ludo</h1>
+  <div id="setup">
+    <input type="text" id="roomCode" placeholder="Enter Room Code" />
+    <button onclick="createRoom()">Create</button>
+    <button onclick="joinRoom()">Join</button>
+  </div>
+  <canvas id="board" width="600" height="600"></canvas>
+  <div id="diceSection">
+    <button onclick="rollDice()">Roll Dice</button>
+    <p id="diceResult"></p>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
